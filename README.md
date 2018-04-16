@@ -25,3 +25,9 @@ These csv files have 57 columns, representing 56 features and 1 label(the same(1
 Experiment result can be seen in Expeiment-Test-Result-Data.pdf.
 
 # Feature Extraction
+In matlab, see Feature Extraction folder.
+
+# Database
+URL: http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
+
+In experiment I only use off-line Dutch training set.
