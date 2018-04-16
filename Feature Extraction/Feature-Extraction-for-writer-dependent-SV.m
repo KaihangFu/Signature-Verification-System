@@ -5,7 +5,7 @@ for th=1:10
     cth=int2str(th);
 	
     %for trainpart
-    cd(['your_path_to_save_database\New NN data\user',cth,'\experimentM\trainpart']);
+    cd(['your_path_to_save_database\Database\user',cth,'\experimentM\trainpart']);
     files=dir('*.PNG');
     L=size(files,1);
     data=zeros(10,57);
@@ -26,7 +26,7 @@ for th=1:10
     csvwrite(['your_path_to_save_lab_projects\labuser',cth,'\user',cth,'traindataM.csv'],data);
 
     %for testpart geniue
-    cd(['your_path_to_save_database\New NN data\user',cth,'\experimentM\testpart\geniue']);
+    cd(['your_path_to_save_database\Database\user',cth,'\experimentM\testpart\geniue']);
     files=dir('*.PNG');
     L=size(files,1);
     dataG=zeros(10,57);
@@ -42,7 +42,7 @@ for th=1:10
     end
 
     %for testpart forgeries
-    cd(['your_path_to_save_database\New NN data\user',cth,'\experimentM\testpart\forgereis']);
+    cd(['your_path_to_save_database\Database\user',cth,'\experimentM\testpart\forgereis']);
     files=dir('*.PNG');
     L=size(files,1);
     dataF=zeros(10,57);
