@@ -20,6 +20,8 @@ Totally 10 projects(for 10 test geneuine writers),user1 means writer1, user2 mea
 
 Every project includes a python code document(neural network clssifier), 5 traindata.csv and 5 testdata.csv documents, testdataW.csv means worst skilled forgeries-writer signature test experiment testdata(you can see Writer-dependent-SV.pdf), testdataM.csv means middle skilled forgeries-writer, testdataB.csv means best skilled forgeries-writer, testdataR.csv means randomly selected skilled forgeries-writer, testdataA.csv means all skilled forgeries-writer signature test experiment testdata, similarly the traindata.
 
+These csv files have 57 columns, representing 56 features and 1 label(the same(1) or different(0) writers).
+
 Experiment result can be seen in Expeiment-Test-Result-Data.pdf.
 
-# Run the code
+# Feature Extraction
