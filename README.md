@@ -27,6 +27,8 @@ Experiment result can be seen in Expeiment-Test-Result-Data.pdf.
 # Feature Extraction
 In matlab, see Feature Extraction folder.
 
+Before run the code, you must edit the code according your choice.
+
 # Database
 URL: http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
 
