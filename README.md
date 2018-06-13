@@ -6,7 +6,7 @@ Define a writer-dependent off-line signature verification system.
 
 Design a set of 56 features of a signature image, including 8 global features and 48 local features.
 
-Accordding to experiment in ICDAR 2011 SigComp database, I get a really high test accuracy that higher than 90%.
+Accordding to experiment in ICDAR 2011 SigComp database and GPDS database, I get a really high test accuracy that higher than 90%.
 
 This signature verification method only need a small set of sigantures as train data, such as 20 or 30 or 40 geneuine signatures and 10 or 20 forged signatures, and these signature are easy to collect, we can let the geneuine writer to write geneuine signatures that we need and let computer program or others skilled writer to produce some skilled forged sigantures.
 
@@ -24,12 +24,18 @@ These csv files have 57 columns, representing 56 features and 1 label(the same(1
 
 Experiment result can be seen in Expeiment-Test-Result-Data.pdf.
 
+Another experiment project is carried on GPDS Synthetic Signature corpus, I use first 100 individuals' signatures to do experiment.
+
 # Feature Extraction
 In matlab, see Feature Extraction folder.
 
 Before run the code, you must edit the code according your choice.
 
 # Database
-URL: http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
+ICDAR 2011 SigComp URL: http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2011_Signature_Verification_Competition_(SigComp2011)
 
 In experiment I only use off-line Dutch training set.
+
+GPDS corpus URL: http://www.gpds.ulpgc.es
+
+I only use first 100 individuals' signatures.
